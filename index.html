@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>Aafu theme</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Website title" />
+<meta name="author" content="Darshan Baral" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.73.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">        
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_dark.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://itzamna3000.github.io/">Home</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Blog</a>
+  </h3>
+</div>
+
+      
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-1">
+    <div class="profile-area rounded text-center position-relative shadow">
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/perfil.jpg"
+      alt="Darshan Baral"
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
+</div>
+
+      <div class="p-2">
+        <h1 class="mb-0">Itzamna Sanchez-Moncada, M. Sc.</h1>
+<h2 class="mb-0">MRI Neuroscientist</h2>
+<h3 class="mb-0">Queretaro, Queretaro</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://www.linkedin.com/in/itzamn%C3%A1-s%C3%A1nchez-moncada-894628100/">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://github.com/itzamna3000">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://twitter.com/Itza_man">
+      <i class="zoomlink mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://www.researchgate.net/profile/Itzamna_Sanchez-Moncada">
+      <i class="zoomlink mt-1 ai ai-researchgate"></i>
+    </a>
+  </div>
+  
+</div>
+ <footer class=" mt-2 mb-2 ">
+  <span class="markdownify">aaa</span>
+  <span >
+    &middot;
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </span>
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  <strong>Dies irae, dies illa, Solvet saeclum in favilla.</strong>
+</p>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    Safety Specialist I
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">2011 - 2012</span>
+    &middot;
+    
+    INC Research
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Workflow manager. Adverse events triager. Adverse events case processor.</dd>
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>Ph.D. Biomedical Science</dt>
+  <dd class="mb-0 ml-3">2016 - *Present* &middot; Universidad Nacional Autonoma de Mexico</dd>
+  
+  <dd class="mb-0 ml-4">
+    Thesis:
+    <a href="#"
+      ><i>Effect of intense interval discrimination training on Parkinsonian patients gait&#39;s biomechanics.</i></a
+    >
+  </dd>
+  
+</dl>
+
+<dl>
+  <dt>M.Sc. in Neurobiology</dt>
+  <dd class="mb-0 ml-3">2013 - 2015 &middot; Universidad Nacional Autonoma de Mexico</dd>
+  
+  <dd class="mb-0 ml-4">
+    Thesis:
+    <a href="http://oreon.dgbiblio.unam.mx/F/DM7DMRVVN99XMGV3X4JGYALD2837X3CFYBRI4CHA23IAQF73QF-16578?func=full-set-set&amp;set_number=001222&amp;set_entry=000001&amp;format=999"
+      ><i>Neural substrates of time perception learning and generalization to motor tapping skills.</i></a
+    >
+  </dd>
+  
+</dl>
+
+<dl>
+  <dt>B.Sc. in Industrial Pharmaceutical Chemestry</dt>
+  <dd class="mb-0 ml-3">2006 - 2010 &middot; Instituto Politecnico Nacional</dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class=""></i>
+        </span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">Juxtacortical white matter analysis</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Evaluate the juxtacortical white matter chages associated to intense interval discrimination training and generalization to motor tapping skills.</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">Parkinsonian patients gait&#39;s biomechanics</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Evaluate the changes in Parkinsonian patients gait due to intense personalized interval discimination training.</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Matlab, FSL, English</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="80%" style="width: 0;"></div>
+</div>
+
+<code>Bash</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="60%" style="width: 0;"></div>
+</div>
+
+<code>R</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="30%" style="width: 0;"></div>
+</div>
+
+<code>Python</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="10%" style="width: 0;"></div>
+</div>
+
+<code>French</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="30%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Roller skating</li>
+  
+  <li class="list-unstyled mb-2">Parkour</li>
+  
+  <li class="list-unstyled mb-2">Playing guitar</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>
